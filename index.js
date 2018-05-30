@@ -1,7 +1,7 @@
-function theBeatlesPlay(array1,array2){
+function theBeatlesPlay(artist,instrument){
   var emptyArr ={};
   for(var i=0; i< array1.length; i++){
-    emptyArr[1]=array1[i] +" palys "+ array2[i]
+    emptyArr[i]=artist[i] +" palys "+ instrument[i]
   }
   
   return emptyArr
