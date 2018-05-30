@@ -1,8 +1,7 @@
 function theBeatlesPlay(array1,array2){
   var emptyArr ={};
   for(var i=0; i< array1.length; i++){
-    var sentence = array1[i] +" palys "+ array2[i];
-    emptyArr[i] = sentence
+    emptyArr[i] = array1[i] +" palys "+ array2[i]
   }
   
   return emptyArr
