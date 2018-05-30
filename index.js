@@ -1,6 +1,6 @@
 function theBeatlesPlay(artist,instrument){
   var emptyArr ={};
-  for(var i=0; i< array1.length; i++){
+  for(var i=0; i< artist.length; i++){
     emptyArr[i]=artist[i] +" palys "+ instrument[i]
   }
   
