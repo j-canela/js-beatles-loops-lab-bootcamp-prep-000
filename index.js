@@ -1,7 +1,7 @@
 function theBeatlesPlay(artist,instrument){
   var emptyArr =[];
   for(var i=0; i< artist.length; i++){
-    emptyArr[i]=artist[i] +" palys "+ instrument[i]
+    emptyArr[i]=artist[i] +" plays "+ instrument[i]
   }
   
   return emptyArr
@@ -21,7 +21,8 @@ function iLoveTheBeatles(n){
   var emptyArr =[];
   
   do{
-    emptyArr[n]="Ilove the Beatles!"
+    
+    emptyArr.push("Ilove the Beatles!")
     n++
   } while(n<15)
   
