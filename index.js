@@ -22,7 +22,7 @@ function iLoveTheBeatles(n){
   
   do{
     
-    emptyArr.push("Ilove the Beatles!")
+    emptyArr.push("I love the Beatles!")
     n++
   } while(n<15)
   
