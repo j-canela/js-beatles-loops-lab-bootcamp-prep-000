@@ -1,5 +1,5 @@
 function theBeatlesPlay(artist,instrument){
-  var emptyArr ={};
+  var emptyArr =[];
   for(var i=0; i< artist.length; i++){
     emptyArr[i]=artist[i] +" palys "+ instrument[i]
   }
@@ -18,7 +18,7 @@ function johnLennonFacts(array){
 }
 
 function iLoveTheBeatles(n){
-  var emptyArr ={};
+  var emptyArr =[];
   
   do{
     emptyArr[n]="Ilove the Beatles!"
