@@ -4,7 +4,7 @@ function theBeatlesPlay(array1,array2){
     emptyArr[i] = array1[i] +" palys "+ array2[i]
   }
   
-  return emptyArr[i]
+  return emptyArr
 }
 
 function johnLennonFacts(array){
